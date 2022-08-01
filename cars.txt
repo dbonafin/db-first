@@ -1,0 +1,13 @@
+Cars table 
+
+id: INT - PRIMARY_KEY - AUTOINCREMENT 
+brand: VARCHAR(100) - NOTNULL
+model: VARCHAR(100) - NOTNULL
+price: DECIMAL(8, 3) - NOTNULL
+year: YEAR - NOTNULL
+horsepower: SMALLINT - NOTNULL
+kilometers_traveled: DECIMAL(6, 3) - NULL
+optionals: TEXT - NULL
+description: TEXT - NULL
+poster: TEXT - DEFAULT url('https://default_images.com/images/default_image_not_available.jpg')
+
